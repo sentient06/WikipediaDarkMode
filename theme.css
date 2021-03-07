@@ -1,0 +1,290 @@
+/*
+ * BSD 3-Clause Licence
+ *
+ * Copyright (c) 2021, Giancarlo Mariot
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ *    list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ *    this list of conditions and the following disclaimer in the documentation
+ *    and/or other materials provided with the distribution.
+ *
+ * 3. Neither the name of the copyright holder nor the names of its
+ *    contributors may be used to endorse or promote products derived from
+ *    this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+/*general*/
+
+body {
+    background-color: #2c2c2a;
+}
+
+#mw-page-base {
+    background-image: linear-gradient(to bottom, #181817 50%, #2c2c2a 100%);
+}
+
+#p-logo a {
+    filter: invert(100%);
+}
+
+a {
+    color: #7dacfa !important;
+}
+
+a:visited {
+    color: #8b80ff !important;
+}
+
+a[class*="oo-ui-icon"] {
+    filter: invert(100%);
+}
+
+.mw-body, .parsoid-body {
+    background-color: #353534;
+}
+
+.mw-body {
+    border-color: #0a5c97;
+    color: #e4e5e6;
+}
+
+.mw-footer li {
+    color: #e4e5e6;
+}
+
+
+#searchInput {
+    color: #ffffff;
+}
+
+
+
+
+/*infoboxes*/
+.infobox {
+    border: 1px solid #4a5158; /*#a2a9b1;*/
+    background-color: #1c2127; /*#f8f9fa;*/
+    color: #fff;
+}
+
+
+
+
+/*Images*/
+
+
+div.thumbinner {
+    border: 1px solid #262a2e; /*#c8ccd1;*/
+    background-color: #3f3f3e; /*#f8f9fa;*/
+}
+
+
+
+
+
+
+
+
+
+
+/*article text items*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFF;
+}
+
+.toc, .toccolours {
+    border: 1px solid #262a2e;
+    background-color: #3f3f3e;
+}
+
+.tocnumber {
+    color: #e4e5e6;
+}
+
+.toctogglelabel {
+    color: #7dacfa;
+}
+
+ul {
+    list-style-image: none;
+}
+
+.vector-menu-tabs .selected {
+    background: #353534;
+}
+
+
+
+
+
+
+
+
+/*Tabs top*/
+
+.vector-menu-tabs li {
+    background-image: linear-gradient(to top, rgba(44, 44, 42, 0) 0, #2c2c2a 1px, #181817 100%);
+}
+
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+    background-image: linear-gradient(to bottom, rgba(10, 92, 151, 0) 0, #0a5c97 100%);
+}
+
+
+
+
+
+/*navboxes*/
+
+
+.catlinks {
+    border: 1px solid #4a5158;
+    background-color: #242b32; /*#f8f9fa;*/
+}
+
+
+.vertical-navbox th,
+.navbox th, .navbox-title {
+    background-color: #00002f; /*#ccccff;*/
+}
+
+.vertical-navbox td,
+.navbox td {
+    background: transparent !important;
+}
+
+.navbox-subgroup .navbox-group,
+.navbox-subgroup .navbox-abovebelow {
+    background-color: #000022; /*#e6e6ff;*/
+}
+
+.vertical-navbox, .navbox, .navbox-subgroup {
+    background-color: #252525 !important;
+}
+
+tr + tr > .navbox-abovebelow, tr + tr > .navbox-group, tr + tr > .navbox-image, tr + tr > .navbox-list {
+    border-top: 2px solid #252525; /*#fdfdfd;*/
+}
+
+.navbox-list {
+    border-color: #252525;
+}
+
+.navbox-even {
+    background-color: #151515; /*#f7f7f7;*/
+}
+
+
+/*tables*/
+
+.wikitable {
+    color: #dadbdc;
+    background-color: #2f3438;
+}
+
+.wikitable > * > tr > th {
+    background-color: #24272e; /*#eaecf0;*/
+}
+
+/*banners, warnings, etc*/
+table.ambox {
+    border: 1px solid #4a5158; /*#a2a9b1;*/
+    background-color: #3f3f3e; /*#fbfbfb;*/
+}
+
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td {
+    border-color: #4a5158; /*#a2a9b1;*/
+}
+
+/*Stuff from home*/
+
+.mw-parser-output #mp-topbanner {
+    border-color: #232323; /*#ddd;*/
+    background-color: #212121; /*#f9f9f9;*/
+}
+
+.mw-parser-output #mp-topbanner, .mw-parser-output .mp-h2, .mw-parser-output #mp-left {
+    color: #ffffff;
+}
+
+.mw-parser-output #mp-left {
+    border-color: #144b2f; /*#cef2e0;*/
+    background: #001d0f; /*#f5fffa;*/
+}
+
+.mw-parser-output #mp-right {
+    border-color: #142e4b; /*#cedff2;*/
+    background: #002244; /*#f5faff;*/
+}
+
+.mw-parser-output #mp-left .mp-h2 {
+    background: #144b2f; /*#cef2e0;*/
+    border-color: #395245; /*#a3bfb1;*/
+}
+
+.mw-parser-output #mp-right .mp-h2 {
+    background: #394452; /*#cedff2;*/
+    border-color: #697e97; /*#a3b0bf;*/
+}
+
+.mw-parser-output .itn-special {
+    background: #081c2c; /*#fafcfe;*/
+    border-color: #29313a; /*#a3b0bf*/
+}
+
+
+.mw-parser-output #mp-tfp-h2 {
+    background: #22103c; /*#ddcef2;*/
+    border-color: #30293a; /*#afa3bf;*/
+}
+
+.mw-parser-output #mp-lower {
+    border-color: #2b144b; /*#ddcef2;*/
+    background: #180031; /*#faf5ff;*/
+}
+
+
+/* Pop-ups */
+
+.mwe-popups {
+    /*-webkit-box-shadow: 0 30px 90px -20px rgba(255,255,255,0.3),0 0 1px 1px rgba(255,255,255,0.05);*/
+    /*box-shadow: 0 30px 90px -20px rgba(255,255,255,0.3),0 0 1px 1px rgba(255,255,255,0.05);*/
+background: #353534;
+-webkit-box-shadow: 0px  0px  1px   0px rgba(255,255,255,0.75) inset,
+                    0px 30px 90px -20px rgba(0,0,0,0.5);
+                    /*,0 0 1px 1px rgba(0,0,0,0.05);*/
+        
+        box-shadow: 0px  0px  1px   0px rgba(255,255,255,0.75) inset,
+                    0px 30px 90px -20px rgba(0,0,0,0.5);
+                    /*,0 0 1px 1px rgba(0,0,0,0.05);*/
+
+
+}
+
+.mwe-popups .mwe-popups-container {
+    /*background: #353534;*/
+    background: transparent;
+}
+
+.mwe-popups .mwe-popups-extract[dir="ltr"]::after {
+    background-image: unset;
+}

@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia Dark Mode",
+    "version": "1.0.2",
+    "description": "Dark mode for Wikipedia",
+    "icons": {
+        "32": "wikipedia-dark-mode-icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.wikipedia.org/*"],
+            "css": ["theme.css"],
+            "js": ["replace_light.js"]
+        }
+    ]
+}
