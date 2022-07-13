@@ -288,3 +288,8 @@ background: #353534;
 .mwe-popups .mwe-popups-extract[dir="ltr"]::after {
     background-image: unset;
 }
+
+.mwe-math-fallback-image-inline, 
+.mwe-math-fallback-image-display { 
+    filter: invert(1);
+}
